@@ -29,3 +29,23 @@ console.log(newJeans);
 // TypeError: Assignment to constant variable.
 // newJeans = '심재현';
 
+
+/**
+ *  선언과 할당 
+ * 
+ *  1) 선언 : 변수를 선언하는 것 
+ *  var name;
+ * 
+ *  2) 할당 : 값을 변수에 대입
+ *  var name = '김길숙';   // 선언과 동시에 할당한 예
+ *  
+ *  const는 선언 후, 무조건 할당해야 한다. (초기값 부여 필요)
+ */
+let girlFriend;
+console.log(girlFriend);        // undefined : 값을 할당하지 않는 경우 자동적으로 할당
+
+// const girlFriend2;          // 'const' declarations must be initialized.ts(1155)
+
+
+
+
